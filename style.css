@@ -1,0 +1,166 @@
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Josefin Sans', sans-serif;;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+
+
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+
+
+.header_section{
+	width: 100%; 
+	float: left;
+	background-image: url(../images/banner.jpg);
+	height: auto;
+	padding-top: 20px;	
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active{ 
+	background-color: #ffffff;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	color: #000;
+  margin-top: 10px;
+
+ }
+
+.menu_text{
+	width: 50%;
+	float: right;
+
+}
+.menu_text ul{ margin:0px; padding: 0px;}
+.menu_text li{ 
+	float: left; 
+	padding-right: 15px;
+  padding-left: 15px; 
+	font-size: 17pt;
+}
+.menu_text li a{
+	color: #ffffff;
+} 
+
+.last{
+	padding-top: 20px;
+	color: #ff9900;
+}
+
+.banner_main {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.taital{
+	width: 57%; 
+	float: left;
+	font-size: 60pt;
+	color: #ffffff;
+	text-align: right;
+}
+
+.ram{ width: 45%; float: left; }
+
+.consectetur_text{
+	width: 90%;
+	float: left;
+	font-size: 24px;
+	color: #fefcfc;
+	line-height: 50px;
+}
+
+.banner_bt{
+	width: 55%;
+	float: left;
+}
+
+.read_bt {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 60px;
+    height: 100px;
+    font-size: 25pt;
+    border:0px;
+}
+
+.box{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.numbar_text {
+    background-color: #f7941d;
+    width: 10%;
+    text-align: center;
+    float: right;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #f1f1f1;
+display: block;
+transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #ff9900;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+hrido
